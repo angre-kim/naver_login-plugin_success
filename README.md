@@ -28,3 +28,5 @@ AndroidManifest.xml에서
             android:name="com.naver.sdk.clientName"
             android:value="@string/client_name" />
 ```
+pubspec.yaml에서
+```flutter_naver_login: ^1.1.1```
