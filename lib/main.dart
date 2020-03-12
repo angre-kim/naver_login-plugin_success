@@ -51,7 +51,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return new Scaffold(
       appBar: new AppBar(
         title: new Text(
-          'Flutter Naver Login Sample',
+          'Flutter 네이버 아이디 로그인 TEST',
           style: TextStyle(color: Colors.white),
         ),
       ),
@@ -72,7 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 key: null,
                 onPressed: buttonLoginPressed,
                 child: new Text(
-                  "LogIn",
+                  "로그인",
                   style: new TextStyle(
                       fontSize: 12.0,
                       color: Colors.black,
@@ -83,7 +83,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 key: null,
                 onPressed: buttonLogoutPressed,
                 child: new Text(
-                  "LogOut",
+                  "로그아웃",
                   style: new TextStyle(
                       fontSize: 12.0,
                       color: Colors.black,
