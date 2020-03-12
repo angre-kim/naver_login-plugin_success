@@ -1,4 +1,4 @@
-# flutter_naverlogin
+# flutter_naverlogin_plugin
 
 A new Flutter application.
 
