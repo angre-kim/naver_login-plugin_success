@@ -1,8 +1,8 @@
 # flutter_naverlogin_plugin
 
-A new Flutter application.
+네이버아이디로그인_plugin
 
-## Getting Started
+## setting해야할것
 
 This project is a starting point for a Flutter application.
 
