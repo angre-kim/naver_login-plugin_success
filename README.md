@@ -1,16 +1,33 @@
-# flutter_naverlogin
+# flutter_naverlogin_plugin
 
-A new Flutter application.
+네이버아이디로그인_plugin
 
-## Getting Started
+## setting해야할것
 
-This project is a starting point for a Flutter application.
+strings.xml 에서
+```<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="client_id">***</string>
+    <string name="client_secret">***</string>
+    <string name="client_name">flutter_naverlogin</string>
+</resources>
+```
+AndroidManifest.xml에서
 
-A few resources to get you started if this is your first Flutter project:
+```<application
+        android:name="io.flutter.app.FlutterApplication"
+        android:label="flutter_naverlogin"
+        android:icon="@mipmap/ic_launcher">
+        <meta-data
+            android:name="com.naver.sdk.clientId"
+            android:value="@string/client_id" />
+        <meta-data
+            android:name="com.naver.sdk.clientSecret"
+            android:value="@string/client_secret" />
+        <meta-data
+            android:name="com.naver.sdk.clientName"
+            android:value="@string/client_name" />
+```
+pubspec.yaml에서
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```flutter_naver_login: ^1.1.1```
