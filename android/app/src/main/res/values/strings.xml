@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="client_id">QK96b7470Q9DprIPNVXK</string>
+    <string name="client_secret">0v1l9jTQXx</string>
+    <string name="client_name">flutter_naverlogin</string>
+</resources>
